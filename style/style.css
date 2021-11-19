@@ -5,3 +5,16 @@
     text-decoration: none;
     list-style: none;
 }
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
