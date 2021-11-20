@@ -21,17 +21,22 @@
     <nav>
         <div class="container flex">
             <a href="index.html"><img src="" alt="">Jav</a>
-            <ul class="flex">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
+            <span onclick="openNav()"><i class="fas fa-bars open-btn"></i></span>
+            <div id="myNav" class="overlay-menu">
+                <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                <ul class="overlay-menu-content">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+                <a href=""></a>
+            </div>
         </div>
     </nav>
 
     <!-- HEADER -->
 
-    <header>
+    <header class="flex">
         <div class="container">
             <div class="left-hero"></div>
             <div class="right-hero">
@@ -51,6 +56,6 @@
 
     <!-- MAIN -->
 
-
+    <script src="js/app.js"></script>
 </body>
 </html>
